@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    var liffId = "1656097351-KdQ9Dn2o"; // 「23_積立額申請」LIFF ID
-    // var liffId = "1656097351-07n3j2JO"; // 「21_トップページ」LIFF ID
+    //var liffId = "1656097351-KdQ9Dn2o"; // 「23_積立額申請」LIFF ID
+    var liffId = "1656097351-07n3j2JO"; // 「21_トップページ」LIFF ID
     initializeLiff(liffId);
 })
 
