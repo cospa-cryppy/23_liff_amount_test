@@ -25,9 +25,9 @@ function sendText(text) {
 
 // LINEトーク画面上でメッセージ送信
 // function sendMessages(text) {
-    if(!liff.isLoggerdIn()){
-        liff.login();;
-    }
+    // if(!liff.isLoggerdIn()){
+    //     liff.login();;
+    // }
     liff.sendMessages([{
         'type': 'text',
         'text': "以下の内容で積立申請を受付けました。"
